@@ -1,0 +1,43 @@
+const COLORS = {
+    /* COLORS */
+    PRIMARY: '#D86191',
+    SECONDARY: '#5E4FC1',
+
+    /* BACKGROUND */
+    BACKGROUND: 'rgba(94, 79, 193, 0.1)',
+    BACKGROUND_SKELETON: 'rgba(0,0,0,0.12)',
+    BACKGROUND_CARD: '#FFFFFF',
+    BACKGROUND_BUTTON: '#F7F6FC',
+    BACKGROUND_MODAL: '#F7F6FC',
+    BACKGROUND_TRANSPARENT: 'transparent',
+
+    /* GRADIENT */
+    GRADIENT_SKELETON: ['transparent', 'rgba(0,0,0,0.05)', 'transparent'],
+    GRADIENT_CARD: ['#E75481', '#929CDE'],
+
+    /* TEXTS */
+    PRIMARY_TEXT: '#080713',
+    SECONDARY_TEXT: '#393942',
+    BUTTON_TEXT: '#FFFFFF',
+    LIGHT_TEXT: '#FFFFFF',
+    WEATHER_TEXT: '#DBD9F2',
+    WEATHER_BLUE_TEXT: '#658ED9',
+    WEATHER_PINK_TEXT: '#D86191',
+    WEATHER_PURPLE_TEXT: '#5E4FC1',
+
+    /* BORDER COLORS */
+    BORDER_OUTLINE: 'rgba(255, 255, 255, 0.3)',
+
+    /* TAGS COLORS */
+    TAG_PRIMARY: 'rgba(212, 66, 111, 0.5)',
+    TAG_SECONDARY: 'rgba(106, 117, 186, 0.5)',
+
+    /* WEATHER TAGS COLORS*/
+    WEATHER_PRECIPITATION: 'rgba(101, 142, 217, 0.1)',
+    WEATHER_HUMIDITY: 'rgba(216, 97, 145, 0.1)',
+    WEATHER_WIND: 'rgba(94, 79, 193, 0.1)',
+};
+
+export type COLOR_TYPE = typeof COLORS;
+
+export default COLORS;
